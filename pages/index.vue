@@ -11,7 +11,7 @@
                <NuxtLink to="/experience" class="hover:bg-gray-600 p-3">Experience</NuxtLink>
                <NuxtLink to="/projects" class="hover:bg-gray-600 p-3">Projects</NuxtLink>
                <NuxtLink to="/biography" class="hover:bg-gray-600 p-3">Biography</NuxtLink>
-               <NuxtLink to="/contact" class="flex flex-col items-center justify-center rounded-md px-6 bg-alternate-blue text-white border-b-4 border-b-rounded border-primary-blue">Contact</NuxtLink>
+               <NuxtLink to="/contact" class="flex flex-col items-center justify-center rounded-md px-6 bg-alternate-blue text-white bg-opacity-40 hover:bg-gray-600">Contact</NuxtLink>
 
             </nav>
         
@@ -49,7 +49,7 @@
       </section>
       <section id="chart" class="relative bg-primary-blue bg-opacity-40 min-h-screen flex flex-col justify-center items-center">
             <h2 class="text-4xl" >Experience</h2>
-            <SkillsChart />
+            <ExperienceChart />
       </section>
       <section id="projects" class="relative bg-primary-blue bg-opacity-80 min-h-screen flex flex-col justify-center items-center">
             <h2 class="text-4xl" >Projects</h2>
