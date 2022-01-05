@@ -104,7 +104,7 @@
                </div>
             </div>
       </section>
-      <footer class="relative bg-alternate-blue flex flex-row items-center justify-around p-16">
+      <footer class="relative bg-alternate-blue bg-opacity-90 flex flex-row items-center justify-around p-16">
          <div class="flex flex-col items-center justify-around">
             <h5 class="text-4xl">Connect</h5>
             <ul class="flex flex-row items-center justify-around space-x-4">
