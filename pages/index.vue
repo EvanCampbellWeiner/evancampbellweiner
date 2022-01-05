@@ -1,6 +1,6 @@
 <template>
-   <div class="text-white overflow-hidden font-eb">
-       <video id="video" autoplay muted loop class="fixed -z-10 min-w-full min-h-full max-w-none overflow-hidden">
+   <div class="text-white font-eb">
+       <video id="video" autoplay muted loop class="fixed -z-10 min-w-full min-h-full max-w-none">
          <source src="/backgroundvideoAndroid2.mp4" type="video/mp4">
       </video>
       <header class="bg-primary-blue relative bg-opacity-40">
@@ -104,7 +104,7 @@
                </div>
             </div>
       </section>
-      <footer class="fixed bg-alternate-blue flex flex-row items-center justify-around p-16">
+      <footer class="relative bg-alternate-blue flex flex-row items-center justify-around p-16">
          <div class="flex flex-col items-center justify-around">
             <h5 class="text-4xl">Connect</h5>
             <ul class="flex flex-row items-center justify-around space-x-4">
