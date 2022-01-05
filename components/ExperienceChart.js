@@ -1,3 +1,6 @@
+import Chart from 'chart.js'
+Chart.defaults.global.defaultFontColor = 'white';
+
 import { Bar } from 'vue-chartjs'
 
 export default {
@@ -9,7 +12,7 @@ export default {
          {
            label: '# of Projects / Courses',
            backgroundColor: 'white',
-           data: [10, 9, 8, 6, 4, 3, 4]
+           data: [10, 9, 8, 6, 4, 3, 4, 0]
          }
        ]
      },

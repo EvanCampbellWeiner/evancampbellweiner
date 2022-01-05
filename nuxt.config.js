@@ -42,5 +42,19 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  googleFonts: {
+   families: {
+     'Cormorant Garamond': true,
+     'EB Garamond' : true,
+     'Architects Daughter' : true,
+     // or:
+     // Lato: [100, 300],
+     // Raleway: {
+     //   wght: [100, 400],
+     //   ital: [100]
+     // },
+   },
+ },
 }
