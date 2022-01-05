@@ -1,7 +1,7 @@
 <template>
    <div class="text-white overflow-hidden font-eb">
        <video id="video" autoplay muted loop class="fixed -z-10 min-w-full min-h-full max-w-none overflow-hidden">
-         <source src="/backgroundvideoAndroid.mp4" type="video/mp4">
+         <source src="/backgroundvideoAndroid2.mp4" type="video/mp4">
       </video>
       <header class="bg-primary-blue relative bg-opacity-40">
          <section id="header" class="flex flex-row md:justify-left px-4 md:items-center">
@@ -104,7 +104,7 @@
                </div>
             </div>
       </section>
-      <footer class="relative bg-alternate-blue flex flex-row items-center justify-around p-16">
+      <footer class="fixed bg-alternate-blue flex flex-row items-center justify-around p-16">
          <div class="flex flex-col items-center justify-around">
             <h5 class="text-4xl">Connect</h5>
             <ul class="flex flex-row items-center justify-around space-x-4">
