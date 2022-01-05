@@ -50,6 +50,10 @@
       <section id="chart" class="relative bg-primary-blue bg-opacity-40 min-h-screen flex flex-col justify-center items-center">
             <h2 class="text-4xl" >Experience</h2>
             <ExperienceChart />
+            <div class="flex flex-row justify-between items-center space-x-4">
+               <button class="hidden lg:block border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-gray-800 hover:text-white">More Info</button>
+               <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-gray-800 hover:text-white">Project List</button>
+            </div>
       </section>
       <section id="projects" class="relative bg-primary-blue bg-opacity-80 min-h-screen flex flex-col justify-center items-center">
             <h2 class="text-4xl" >Portfolio</h2>
@@ -58,20 +62,20 @@
                   <img src="/NoMoreMeetings.jpg" alt="NoMoreMeetings Homepage" class="w-36" />
                   <h3 class="text-2xl">No More Meetings</h3>
                   <div class="flex flex-row justify-between items-center space-x-4">
-                     <button class="hidden lg:block border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-green-800 hover:text-white">Demo (Desktop Only)</button>
+                     <button class="hidden lg:block border-yellow-300 border-2 px-6 py-2 rounded-md hover:bg-yellow-300 hover:text-black">Demo (Desktop Only)</button>
                      <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-blue-800 hover:text-white">Github</button>
                   </div>
                </div>
                <div class="border-gray-500 border-2 p-4 rounded-md flex flex-col items-center justify-center">
-                  <img src="/NoMoreMeetings.jpg" alt="NoMoreMeetings Homepage" class="w-36" />
+                  <img src="/Sequence21.jpg" alt="NoMoreMeetings Homepage" class="w-36" />
                   <h3 class="text-2xl">Sequence 21</h3>
                   <div class="flex flex-row justify-between items-center space-x-4">
-                     <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-green-800 hover:text-white">Live</button>
+                     <button class="border-yellow-300 border-2 px-6 py-2 rounded-md hover:bg-yellow-300 hover:text-black">Live</button>
                      <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-blue-800 hover:text-white">Blog</button>
                   </div>
                </div>
                <div class="border-gray-500 border-2 p-4 rounded-md flex flex-col items-center justify-center">
-                  <img src="/NoMoreMeetings.jpg" alt="NoMoreMeetings Homepage" class="w-36" />
+                  <img src="/Stluet.jpg" alt="NoMoreMeetings Homepage" class="w-36" />
                   <h3 class="text-2xl">Stluet Furniture</h3>
                   <div class="flex flex-row justify-between items-center space-x-4">
                      <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-green-800 hover:text-white">Live</button>
@@ -79,7 +83,7 @@
                   </div>
                </div>
                <div class="border-gray-500 border-2 p-4 rounded-md flex flex-col items-center justify-center">
-                  <img src="/NoMoreMeetings.jpg" alt="NoMoreMeetings Homepage" class="w-36" />
+                  <img src="/flashcardextension.png" alt="NoMoreMeetings Homepage" class="w-24" />
                   <h3 class="text-2xl">Flashcards Extension</h3>
                   <div class="flex flex-row justify-between items-center space-x-4">
                      <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-green-800 hover:text-white">Demo Video</button>
@@ -87,18 +91,18 @@
                   </div>
                </div>
                <div class="border-gray-500 border-2 p-4 rounded-md flex flex-col items-center justify-center">
-                  <img src="/NoMoreMeetings.jpg" alt="NoMoreMeetings Homepage" class="w-36" />
-                  <h3 class="text-2xl">Motivania</h3>
+                  <img src="/plasticoceans.jpg" alt="NoMoreMeetings Homepage" class="w-36" />
+                  <h3 class="text-2xl">Plastic Oceans</h3>
                   <div class="flex flex-row justify-between items-center space-x-4">
                      <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-green-800 hover:text-white">Demo</button>
                      <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-blue-800 hover:text-white">Github</button>
                   </div>
                </div>
                <div class="border-gray-500 border-2 p-4 rounded-md flex flex-col items-center justify-center">
-                  <img src="/NoMoreMeetings.jpg" alt="NoMoreMeetings Homepage" class="w-36" />
-                  <h3 class="text-2xl">BCW Books</h3>
+                  <img src="/motivania.jpg" alt="NoMoreMeetings Homepage" class="w-36" />
+                  <h3 class="text-2xl">Motivania</h3>
                   <div class="flex flex-row justify-between items-center space-x-4">
-                     <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-green-800 hover:text-white">Demo Video</button>
+                     <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-green-800 hover:text-white">Demo</button>
                      <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-blue-800 hover:text-white">Github</button>
                   </div>
                </div>
@@ -108,10 +112,9 @@
          <div class="flex flex-col items-center justify-around">
             <h5 class="text-4xl">Connect</h5>
             <ul class="flex flex-row items-center justify-around space-x-4">
-               <li><button>Github</button></li>
-               <li><button>LinkedIn</button></li>
-               <li><button>Twitter</button></li>
-               <li><button>Email</button></li>
+               <li><a href="https://github.com/evancampbellweiner" target="_blank">Github</a></li>
+               <li><a href="https://www.linkedin.com/in/evancampbellweiner/" target="_blank">LinkedIn</a></li>
+               <li><NuxtLink to="/contact" >Contact</NuxtLink></li>
             </ul>
          </div>
          <h5 class="text-2xl">&copy 2021 Evan Campbell-Weiner</h5>
