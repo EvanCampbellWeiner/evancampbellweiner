@@ -10,7 +10,6 @@
         <nav class="hidden md:flex md:flex-row text-lg tracking-wider">
           <NuxtLink to="/experience" class="hover:bg-gray-600 px-3 py-6 font-cormorant">Experience</NuxtLink>
           <NuxtLink to="/projects" class="hover:bg-gray-600 px-3 py-6">Projects</NuxtLink>
-          <NuxtLink to="/biography" class="hover:bg-gray-600 px-3 py-6">Biography</NuxtLink>
           <NuxtLink to="/contact" class="hover:bg-gray-600 px-3 py-6">Contact</NuxtLink>
 
         </nav>

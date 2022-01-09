@@ -5,7 +5,7 @@
     </video>
     <header class="bg-primary-blue relative bg-opacity-40">
       <section id="header" class="flex flex-row md:justify-left px-4 md:items-center">
-        <h1 class="text-4xl tracking-widest flex-1 font-cormorant py-4"><NuxtLink to="/">Evan Campbell-Weiner</NuxtLink></h1>
+        <h1 class="text-4xl tracking-widest flex-1 font-cormorant py-4"><NuxtLink to="/index">Evan Campbell-Weiner</NuxtLink></h1>
         <!-- Desktop-->
         <nav class="hidden md:flex md:flex-row text-lg tracking-wider">
           <NuxtLink to="/experience" class="hover:bg-gray-600 px-3 py-6 font-cormorant">Experience</NuxtLink>
@@ -27,7 +27,7 @@
         </div>
       </section>
     </header>
-    <section id="resume" class="relative bg-primary-blue bg-opacity-80 min-h-screen flex flex-col">
+    <section id="resume" class="relative bg-primary-blue bg-opacity-95 min-h-screen flex flex-col">
       <div class=" flex flex-col justify-center items-center border-1 border-gray-300  m-8 p-4">
         <h2 class="text-3xl">Summary of Qualifications</h2>
         <ul
