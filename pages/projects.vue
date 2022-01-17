@@ -8,10 +8,10 @@
         <h1 class="text-4xl tracking-widest flex-1 font-cormorant py-4"><NuxtLink to="/">Evan Campbell-Weiner</NuxtLink></h1>
         <!-- Desktop-->
         <nav class="hidden md:flex md:flex-row text-lg tracking-wider">
+          <NuxtLink to="/" class="hover:bg-gray-600 px-3 py-6 font-cormorant">Home</NuxtLink>
           <NuxtLink to="/experience" class="hover:bg-gray-600 px-3 py-6 font-cormorant">Experience</NuxtLink>
           <NuxtLink to="/projects" class="hover:bg-gray-600 px-3 py-6">Projects</NuxtLink>
           <NuxtLink to="/contact" class="hover:bg-gray-600 px-3 py-6">Contact</NuxtLink>
-
         </nav>
 
         <!-- Mobile Nav -->
