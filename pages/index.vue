@@ -23,59 +23,7 @@
                <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-gray-800 hover:text-white">Project List</button>
             </div>
       </section>
-      <section id="projects" class="relative bg-primary-blue bg-opacity-80 min-h-screen flex flex-col justify-center items-center">
-            <h2 class="text-4xl" >Portfolio</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 justify-around items-stretch m-4 gap-4 w-5/6">
-               <div class="border-gray-500 border-2 p-4 rounded-md flex flex-col items-center justify-center">
-                  <img src="/NoMoreMeetings.jpg" alt="NoMoreMeetings Homepage" class="w-36" />
-                  <h3 class="text-2xl">No More Meetings</h3>
-                  <div class="flex flex-row justify-between items-center space-x-4">
-                     <button class="hidden lg:block border-yellow-300 border-2 px-6 py-2 rounded-md hover:bg-yellow-300 hover:text-black">Demo (Desktop Only)</button>
-                     <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-blue-800 hover:text-white">Github</button>
-                  </div>
-               </div>
-               <div class="border-gray-500 border-2 p-4 rounded-md flex flex-col items-center justify-center">
-                  <img src="/Sequence21.jpg" alt="NoMoreMeetings Homepage" class="w-36" />
-                  <h3 class="text-2xl">Sequence 21</h3>
-                  <div class="flex flex-row justify-between items-center space-x-4">
-                     <button class="border-yellow-300 border-2 px-6 py-2 rounded-md hover:bg-yellow-300 hover:text-black">Live</button>
-                     <NuxtLink to="/blog/sequence21" class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-blue-800 hover:text-white">Blog</NuxtLink>
-                  </div>
-               </div>
-               <div class="border-gray-500 border-2 p-4 rounded-md flex flex-col items-center justify-center">
-                  <img src="/Stluet.jpg" alt="NoMoreMeetings Homepage" class="w-36" />
-                  <h3 class="text-2xl">Stluet Furniture</h3>
-                  <div class="flex flex-row justify-between items-center space-x-4">
-                     <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-green-800 hover:text-white">Live</button>
-                     <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-blue-800 hover:text-white">Blog</button>
-                  </div>
-               </div>
-               <div class="border-gray-500 border-2 p-4 rounded-md flex flex-col items-center justify-center">
-                  <img src="/flashcardextension.png" alt="NoMoreMeetings Homepage" class="w-24" />
-                  <h3 class="text-2xl">Flashcards Extension</h3>
-                  <div class="flex flex-row justify-between items-center space-x-4">
-                     <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-green-800 hover:text-white">Demo Video</button>
-                     <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-blue-800 hover:text-white">Github</button>
-                  </div>
-               </div>
-               <div class="border-gray-500 border-2 p-4 rounded-md flex flex-col items-center justify-center">
-                  <img src="/plasticoceans.jpg" alt="NoMoreMeetings Homepage" class="w-36" />
-                  <h3 class="text-2xl">Plastic Oceans</h3>
-                  <div class="flex flex-row justify-between items-center space-x-4">
-                     <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-green-800 hover:text-white">Demo</button>
-                     <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-blue-800 hover:text-white">Github</button>
-                  </div>
-               </div>
-               <div class="border-gray-500 border-2 p-4 rounded-md flex flex-col items-center justify-center">
-                  <img src="/motivania.jpg" alt="NoMoreMeetings Homepage" class="w-36" />
-                  <h3 class="text-2xl">Motivania</h3>
-                  <div class="flex flex-row justify-between items-center space-x-4">
-                     <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-green-800 hover:text-white">Demo</button>
-                     <button class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-blue-800 hover:text-white">Github</button>
-                  </div>
-               </div>
-            </div>
-      </section>
+      <Projects />
       <Footer />
    </div>
 </template>

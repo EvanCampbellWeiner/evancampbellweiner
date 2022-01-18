@@ -1,5 +1,5 @@
 <template>
-   <footer class="relative bg-alternate-blue bg-opacity-90 flex flex-row items-center justify-around p-16 text-white text-eb">
+   <footer class="relative bg-alternate-blue bg-opacity-60 flex flex-row items-center justify-around p-16 text-white text-eb">
       <div class="flex flex-col items-center justify-around">
          <h5 class="text-4xl">Connect</h5>
          <ul class="flex flex-row items-center justify-around space-x-4">
