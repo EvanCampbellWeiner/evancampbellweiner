@@ -65,7 +65,7 @@
       <!-- Education -->
       <div class="flex flex-col justify-center items-center border-1 border-white p-4">
         <h2 class="text-3xl">Education</h2>
-        <ul class="text-md text-gray-300">
+        <ul class="text-xl text-gray-300">
           <li>BSc Honours in Computer Science (Co-op Option) at Trent University</li>
           <li class="text-center">Graduating June 2022</li>
         </ul>
