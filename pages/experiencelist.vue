@@ -50,7 +50,7 @@
                      'overscore.media', 'NoMoreMeetings', 'CMC Art Website',
                   ],
                   courses: [
-                     '3420 - Web Applications Development', '2830 - Multimedia and Design'
+                     'COIS3420 - Web Applications Development', 'COIS2830 - Multimedia and Design'
                   ],
                   show: false
                },
@@ -90,17 +90,17 @@
                       'Automatic Sestina Maker'
                   ],
                   courses: [
-                     'COIS1020 - Intro to Programming', 'COIS2020 - Data Structures and Algorithms', 'COIS3020 - Data Structures and Algorithms 2', 
+                     'COIS1020 - Intro to Programming', 'COIS2020 - Data Structures and Algorithms', 'COIS3020 - Data Structures and Algorithms 2', 'COIS3040 - Software Architecture and Design', 
                   ],
                   show: false
                },
                {
-                  name: 'C++',
+                  name: 'C++ / C',
                   projects: [
                      
                   ],
                   courses: [     
-                     'COIS3380 - Systems Programming in C', 'COIS 3320 - Operating Systems', 'COIS4350 - High Performance Computing',   
+                     'COIS3380 - Systems Programming in C', 'COIS3320 - Operating Systems', 'COIS4350 - High Performance Computing',   
                   ],
                   
                   show: false

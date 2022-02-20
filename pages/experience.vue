@@ -5,10 +5,10 @@
     </video>
     <Header />
     <section id="resume" class="relative bg-primary-blue bg-opacity-70 min-h-screen flex flex-col">
-      <div class=" flex flex-col justify-center items-center border-1 border-gray-300  m-8 p-4">
+      <div class="flex flex-col justify-center items-center p-4">
         <h2 class="text-3xl">Summary of Qualifications</h2>
         <ul
-          class="text-xl p-4 mt-4 flex flex-col items-center justify-center border-2 border-white border-solid text-gray-300">
+          class="text-lg p-6 mt-4 flex flex-col items-start justify-start border-2 border-white border-solid rounded-md list-disc text-gray-300">
           <li>3 Years of Web Application Development using HTML / CSS</li>
           <li>Experience working on over 20 Web Applications</li>
           <li>1+ year experience as a junior developer at iApotheca Healthcare</li>
@@ -18,57 +18,19 @@
       </div>
       <div class="flex flex-col justify-center items-center border-1 border-white m-6 p-2 text-xl space-y-4">
         <h2 class="text-3xl text-center">Work Experience</h2>
-        <div class="flex flex-col justify-around md:w-1/3">
-          <div class="flex flex-row justify-between space-x-16 items-end">
-            <h3 class="text-2xl">Junior Developer</h3>
-            <p class="text-right text-md text-gray-300">May 2021 - Present <br />
-              September 2019 - December 2019</p>
-          </div>
-          <p class="text-md text-gray-300">iApotheca Healthcare</p>
-
-          <ul class="text-md  pt-2 list-disc flex flex-col text-gray-300">
-            <li>Experience using Laravel / Livewire (TALL Stack) to update existing applications.</li>
-            <li>Used Github PR's for feature focused development</li>
-            <li>Created feature, unit, and integration tests for new / existing features</li>
-            <li>Provided code reviews to help ensure multi-platform delivery and cross-browser support</li>
-          </ul>
-        </div>
-        <div class="flex flex-col justify-around md:w-1/3">
-          <div class="flex flex-row justify-between space-x-8 items-end">
-            <h3 class="text-2xl">Backend Developer</h3>
-            <p class="text-right text-md text-gray-300">May 2021 - Present </p>
-          </div>
-          <p class="text-md text-gray-300">Overscore Media</p>
-
-          <ul class="text-md  pt-2 list-disc flex flex-col text-gray-300">
-            <li>Worked in a team of 3 using Laravel / Inertia JS to create an online store for Stluet Furniture</li>
-            <li>Worked in a team using the TALL stack to create Sequence21</li>
-            <li>Acted as a backend developer to help create database, program structure, stripe integration, and more</li>
-            <li>Provided excellent presentation skills when working with the client and team members</li> 
-          </ul>
-        </div>
-        <div class="flex flex-col justify-around md:w-1/3">
-          <div class="flex flex-row justify-between space-x-8 items-end">
-            <h3 class="text-2xl">IT Systems Analyst</h3>
-            <p class="text-right text-md text-gray-300">January 2021 - May 2021 </p>
-          </div>
-          <p class="text-md text-gray-300">Trent University</p>
-
-          <ul class="text-md  pt-2 list-disc flex flex-col text-gray-300">
-            <li>Created data driven reports in Request Tracker to support business decisions</li>
-            <li>Provided tech support for Students, Faculty, and Alumni</li>
-            <li>Developed user guides and help articles for an ITSM system</li>
-            <li>Researched ITSM systems and ITIL guidelines</li>
-          </ul>
+        <!-- iApotheca -->
+        <div class="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+            <experience-component :info="iapotheca"/>
+            <experience-component :info="overscore"/>
+            <experience-component :info="trentit"/>
         </div>
       </div>
       <!-- Education -->
       <div class="flex flex-col justify-center items-center border-1 border-white p-4">
         <h2 class="text-3xl">Education</h2>
-        <ul class="text-xl text-gray-300">
-          <li>BSc Honours in Computer Science (Co-op Option) at Trent University</li>
-          <li class="text-center">Graduating June 2022</li>
-        </ul>
+        <div class="lg:max-w-1/2">
+            <experience-component :info="trentEducation" />
+        </div>
       </div>
       <!-- Relevant Courses -->
       <div class="flex flex-col justify-center items-center border-1 border-white p-4">
@@ -89,31 +51,19 @@
       <div
         class=" row-span-2 flex flex-col justify-center items-center border-1 border-white m-6 p-2 text-xl space-y-4">
         <h2 class="text-3xl text-center">Volunteer Experience</h2>
-        <div class="flex flex-col justify-around p-2">
-          <div class="flex flex-row justify-between space-x-16 items-end">
-            <h3 class="text-2xl">Front-End Developer</h3>
-            <p class="text-right text-md text-gray-300">October 2020 - January 2021</p>
-          </div>
-          <p class="text-md text-gray-300">Capital One - Digital for Good</p>
-        </div>
-        <div class="flex flex-col justify-around p-2">
-          <div class="flex flex-row justify-between space-x-16 items-end">
-            <h3 class="text-2xl">Chair/Vice-Chair/Member</h3>
-            <p class="text-right text-md text-gray-300">May 2014 - May 2018</p>
-          </div>
-          <p class="text-md text-gray-300">Peterborough Youth Council</p>
+        <div class="grid md:grid-cols-2 gap-8">
+            <experience-component :info="capitalOne" />
+            <experience-component :info="pyc" />
         </div>
       </div>
       <!-- Awards -->
       <div class="flex flex-col justify-center items-center border-1 border-white p-4">
         <h2 class="text-3xl">Awards</h2>
-        <ul class="text-xl text-gray-300 list-disc ">
-          <li>Soonjin Jung Computer Science Prize (2021-2022)<br /><span class="text-sm ml-4">Trent University</span>
-          </li>
-          <li>2nd Place and People's Choice Winner (2020) <br /><span class="text-sm ml-4">Hackworks HackINSTEAD</span>
-          </li>
-          <li>Peterborough Youth Volunteer of the Year (2017) <br /><span class="text-sm ml-4">City of
-              Peterborough</span></li>
+        <ul class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <li><experience-component :info="soonjin"/></li>
+            <li><experience-component :info="hackworks"/></li>
+            <li><experience-component :info="volunteeroftheyear"/></li>
+
         </ul>
       </div>
     </section>
@@ -122,6 +72,110 @@
 </template>
 
 <script>
-  export default {}
+import ExperienceComponent from '../components/ExperienceComponent.vue'
+  export default {
+    components: { ExperienceComponent },
 
+    data:  function() {
+      return {
+        iapotheca: {
+            'jobtitle': "Junior Developer",
+            descriptions: [
+                'Experience using Laravel / Livewire (TALL Stack) to update existing applications.',
+                "Used Github PR's for feature focused development",
+                'Created feature, unit, and integration tests for new / existing features',
+                'Built a REST API to support delivery creation'
+            ],
+            
+            'dateStarted' : 'May 2021',
+            'dateEnded' : 'Present',
+            'company' : 'iApotheca Healthcare'
+        },
+        overscore: {
+            'jobtitle': 'Backend Developer',
+            descriptions: [
+                'Worked in a team of 3 using Laravel / Inertia JS to create an online store for Stluet Furniture',
+                'Worked in a team using the TALL stack to create Sequence21',
+                'Acted as a backend developer to help create database, program structure, stripe integration, and more',
+                'Provided excellent presentation skills when working with the client and team members',
+            ],
+            'dateStarted': 'May 2021',
+            'dateEnded': 'Present',
+            'company' : 'Overscore Media'
+        },
+        trentit: {
+            'jobtitle': 'IT Systems Analyst',
+            descriptions: [
+                'Created data driven reports in Request Tracker to support business decisions',
+                'Provided tech support for Students, Faculty, and Alumni',
+                'Developed user guides and help articles for an ITSM system',
+                'Researched ITSM systems and ITIL guidelines'
+            ],
+            'dateStarted' : 'January 2021',
+            'dateEnded' : 'May 2021',
+            'company' : 'Trent University'
+
+        },
+        trentEducation: {
+            'jobtitle': 'BSc Honours in Computer Science',
+            descriptions: [
+                'Graduating June 2022',
+                'Co-op Option',
+                'Specialization in Software Engineering'
+            ],
+            'dateStarted': 'September 2018',
+            'dateEnded': 'June 2022',
+            'company' : 'Trent University'
+        },
+        capitalOne: {
+            'jobtitle': 'Front-End Developer',
+            descriptions: [
+                'Created the front-end for an environmental impact quiz',
+                'Wrote code to connect with a background API to calculate results'
+            ],
+            'dateStarted': 'October 2020',
+            'dateEnded' : 'January 2021',
+            'company' : 'Capital One - Hack for Good'
+        },
+        pyc: {
+            'jobtitle':'Chair / Vice-Chair / Member',
+            descriptions: [
+                'Facilitated and ran monthly meetings with other members of the council',
+                'Planned National Youth Week and Global Youth Day events in Peterborough',
+                'Represented the council at various city advisory meetings',
+            ],
+            'dateStarted': 'May 2014',
+            'dateEnded': 'May 2018',
+            'company' : 'Peterborough Youth Council',
+        },
+        soonjin: {
+            'jobtitle':'Soonjin Jung Computer Science Prize',
+            descriptions: [
+                'Awarded to the CS student with the highest GPA in third year',
+            ],
+            'dateStarted': '2020',
+            'dateEnded' : '2021',
+            'company' : 'Trent University'
+        },
+        hackworks: {
+            'jobtitle': '2nd Place and Peoples Choice Winner',
+            descriptions: [
+                'Awarded for my Flashcards Extension Application',
+            ],
+            'dateStarted': 'August 2020',
+            'company': 'Hackworks HackINSTEAD',
+        },
+        volunteeroftheyear: {
+            'jobtitle': 'Youth Volunteer of the Year (2017)',
+            descriptions: [
+
+            ],
+            'dateStarted': '2017',
+            'dateEnded': '2018',
+            'company': 'City of Peterborough'
+        }
+
+      }
+   }
+}
 </script>

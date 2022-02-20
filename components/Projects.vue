@@ -15,7 +15,7 @@
                   <h3 class="text-2xl">Sequence 21</h3>
                   <div class="flex flex-row justify-between items-center space-x-4">
                      <a href="https://sequence21.com" target="_blank" class="border-yellow-300 border-2 px-6 py-2 rounded-md hover:bg-yellow-300 hover:text-black">Website</a>
-                     <a href="https://overscore.media/services/examples/sequence21/" class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-blue-800 hover:text-white">Blog</a>
+                     <NuxtLink to="/blog/sequence21" class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-blue-800 hover:text-white">Blog</NuxtLink>
                   </div>
                </div>
                <div class="border-gray-500 border-2 p-4 rounded-md flex flex-col items-center justify-center">
@@ -23,7 +23,7 @@
                   <h3 class="text-2xl">Stluet Furniture</h3>
                   <div class="flex flex-row justify-between items-center space-x-4">
                      <a href="https://stluet.com" target="_blank" class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-green-800 hover:text-white">Website</a>
-                     <a href="https://overscore.media/services/examples/stluet/" class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-blue-800 hover:text-white">Blog</a>
+                     <NuxtLink to="/blog/stluet" class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-blue-800 hover:text-white">Blog</NuxtLink>
                   </div>
                </div>
                <div class="border-gray-500 border-2 p-4 rounded-md flex flex-col items-center justify-center">
