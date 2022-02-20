@@ -12,7 +12,7 @@ export default {
          {
            label: '# of Projects / Courses',
            backgroundColor: 'white',
-           data: [17, 11, 8, 11, 4, 3, 4, 0]
+           data: [17, 11, 8, 11, 5, 3, 4, 0]
          }
        ]
      },
