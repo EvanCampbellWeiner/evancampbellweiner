@@ -14,7 +14,7 @@
             >
                 <img src="/EvanHill.jpg" class="w-2/3 rounded-sm border-2 border-black" />
                 <div class="max-w-auto flex flex-col items-center justify-center p-4">
-                    <h2 class="pb-2 text-2xl sm:text-4xl">Welcome</h2>
+                    <h2 class="pb-2 text-2xl sm:text-4xl">Welcome My name is Evan</h2>
                     <div class="p font-eb text-lg">
                         My name is Evan Campbell-Weiner and I am a Software Developer based out of Canada. I am
                         currently finishing a Honours Degree in Computer Science (Co-op Option) at Trent University.
