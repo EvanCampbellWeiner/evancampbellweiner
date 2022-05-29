@@ -36,8 +36,15 @@ export default {
     '@nuxtjs/tailwindcss',
   ],
 
+  publicRuntimeConfig: {
+    axios: {
+      baseURL: 'https://api.nuxtjs.dev'
+    }
+},
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+      '@nuxtjs/axios'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
