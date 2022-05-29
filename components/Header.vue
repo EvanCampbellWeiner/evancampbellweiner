@@ -7,6 +7,7 @@
           <NuxtLink to="/" class="hover:bg-gray-600 px-3 py-6 font-cormorant">Home</NuxtLink>
           <NuxtLink to="/experience" class="hover:bg-gray-600 px-3 py-6 font-cormorant">Experience</NuxtLink>
           <NuxtLink to="/projects" class="hover:bg-gray-600 px-3 py-6">Projects</NuxtLink>
+          <NuxtLink to="/game" class="hover:bg-gray-600 px-3 py-6">Game</NuxtLink>
           <NuxtLink to="/contact" class="hover:bg-gray-600 px-3 py-6">Contact</NuxtLink>
         </nav>
 
@@ -25,6 +26,7 @@
             <NuxtLink to="/" class="hover:bg-gray-600 px-3 py-6 font-cormorant">Home</NuxtLink>
             <NuxtLink to="/experience" class="hover:bg-gray-600 px-3 py-6 font-cormorant">Experience</NuxtLink>
             <NuxtLink to="/projects" class="hover:bg-gray-600 px-3 py-6">Projects</NuxtLink>
+            <NuxtLink to="/game" class="hover:bg-gray-600 px-3 py-6">Game</NuxtLink>
             <NuxtLink to="/contact" class="hover:bg-gray-600 px-3 py-6">Contact</NuxtLink>
          </nav>
     </header>

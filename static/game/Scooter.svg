@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="420.0mm"
+   height="297.0mm"
+   viewBox="0 0 420.0 297.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="Scooter.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview285"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.33540614"
+     inkscape:cx="615.67149"
+     inkscape:cy="573.93105"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs280" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#666666;stroke-width:0.462513"
+       id="path539"
+       cx="76.083359"
+       cy="258.16348"
+       rx="25.233433"
+       ry="21.137997" />
+    <ellipse
+       style="fill:#666666;stroke-width:0.510706"
+       id="path539-0"
+       cx="288.34106"
+       cy="258.16348"
+       rx="28.202072"
+       ry="23.059631" />
+    <rect
+       style="fill:#666666;stroke-width:0.611479"
+       id="rect1710"
+       width="308.73849"
+       height="8.9676352"
+       x="31.553783"
+       y="233.18224" />
+    <rect
+       style="fill:#666666;stroke-width:0.462513"
+       id="rect1814"
+       width="8.9059019"
+       height="143.48219"
+       x="331.38635"
+       y="89.700035" />
+    <rect
+       style="fill:#666666;stroke-width:0.376455"
+       id="rect2232"
+       width="13.124324"
+       height="154.15367"
+       x="345.76816"
+       y="-29.046743"
+       transform="matrix(0.98601377,0.16666386,-0.37981816,0.92506117,0,0)" />
+  </g>
+</svg>
