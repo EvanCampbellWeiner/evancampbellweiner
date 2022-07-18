@@ -1,5 +1,5 @@
 <template>
-  <div class="text-white font-eb">
+  <div class="text-white font-sans">
     <video id="video" autoplay muted loop class="fixed -z-10 min-w-full min-h-full max-w-none">
       <source src="/backgroundvideoAndroid2.mp4" type="video/mp4">
     </video>
@@ -82,7 +82,6 @@ import ExperienceComponent from '../components/ExperienceComponent.vue'
             'jobtitle': "Junior Developer",
             descriptions: [
                 'Experience using Laravel / Livewire (TALL Stack) to update existing applications.',
-                "Used Github PR's for feature focused development",
                 'Created feature, unit, and integration tests for new / existing features',
                 'Built a REST API to support delivery creation'
             ],
@@ -97,7 +96,6 @@ import ExperienceComponent from '../components/ExperienceComponent.vue'
                 'Worked in a team of 3 using Laravel / Inertia JS to create an online store for Stluet Furniture',
                 'Worked in a team using the TALL stack to create Sequence21',
                 'Acted as a backend developer to help create database, program structure, stripe integration, and more',
-                'Provided excellent presentation skills when working with the client and team members',
             ],
             'dateStarted': 'May 2021',
             'dateEnded': 'Present',
@@ -107,7 +105,6 @@ import ExperienceComponent from '../components/ExperienceComponent.vue'
             'jobtitle': 'IT Systems Analyst',
             descriptions: [
                 'Created data driven reports in Request Tracker to support business decisions',
-                'Provided tech support for Students, Faculty, and Alumni',
                 'Developed user guides and help articles for an ITSM system',
                 'Researched ITSM systems and ITIL guidelines'
             ],
@@ -168,7 +165,7 @@ import ExperienceComponent from '../components/ExperienceComponent.vue'
         volunteeroftheyear: {
             'jobtitle': 'Youth Volunteer of the Year (2017)',
             descriptions: [
-
+                'Awarded for my volunteer work with the PTBO Youth Council'
             ],
             'dateStarted': '2017',
             'dateEnded': '2018',
