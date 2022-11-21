@@ -115,6 +115,17 @@
                   ],
                   show: false
                },
+               {
+                  name: 'Java',
+                  projects: [
+                     'Amazon Java Cloud Application',
+                     'Dungeon Crawler JavaFX Game'
+                  ],
+                  courses: [
+                     'COIS2240 - Software Architecture and Design',
+                  ],
+                  show: false
+               },
             ]
          }
       },

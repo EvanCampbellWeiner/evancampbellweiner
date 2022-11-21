@@ -12,7 +12,6 @@
           <li class="border-2 border-white border-solid rounded-md py-2 px-8 hover:bg-white hover:text-gray-500"><a href="https://www.linkedin.com/in/evancampbellweiner/" target="_blank" class="p-4">LinkedIn</a></li>
         </ul>
       </div>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZNBVCkFSZTmSBPdGg3LHOK75toDoyxf1hEZ8-k4K2P3SjOw/viewform?embedded=true" width="640" height="677" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </section>
     <Footer />
   </div>

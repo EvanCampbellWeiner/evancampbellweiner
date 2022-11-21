@@ -78,6 +78,18 @@ import ExperienceComponent from '../components/ExperienceComponent.vue'
 
     data:  function() {
       return {
+        amazon: {
+            'jobtitle': "Software Development Engineer",
+            descriptions: [
+                'Experience using Java and AWS Services to work on a large-scale cloud application',
+                'Worked on Q4 Peak Readiness Prep including creating alarms, unblocking pipelines, etc.',
+                'Triaged incoming tickets and metrics and found important information for an ongoing customer-impacting issue'
+            ],
+            
+            'dateStarted' : 'July 2022',
+            'dateEnded' : 'November 2022',
+            'company' : 'Amazon - Alexa'
+        },
         iapotheca: {
             'jobtitle': "Junior Developer",
             descriptions: [
@@ -87,7 +99,7 @@ import ExperienceComponent from '../components/ExperienceComponent.vue'
             ],
             
             'dateStarted' : 'May 2021',
-            'dateEnded' : 'Present',
+            'dateEnded' : 'January 2022',
             'company' : 'iApotheca Healthcare'
         },
         overscore: {
