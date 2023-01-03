@@ -3,10 +3,10 @@ Hello, My name is Evan Campbell-Weiner 😄
 
 **About**  
 
-✨ 21 years old  
-💻 Web Developer since 2019  
-📚 BSc Honours in Computer Science at Trent University (Graduating June 2022)  
-🕶️ Started at Amazon as an SE July 2022
+✨ 22 years old  
+💻 Software Developer since 2019  
+📚 BSc Honours in Computer Science at Trent University (Graduated June 2022)  
+🕶️ Most recently worked at Amazon as a Software Development Engineer
 
 **Connect**  
 
