@@ -8,6 +8,6 @@
             <li><NuxtLink to="/contact" >Contact</NuxtLink></li>
          </ul>
       </div>
-      <h5 class="text-xl">&copy 2021 Evan Campbell-Weiner</h5>
+      <h5 class="text-xl">&copy 2024 Evan Campbell-Weiner</h5>
    </footer>
 </template>
