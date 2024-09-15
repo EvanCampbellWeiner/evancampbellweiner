@@ -14,7 +14,6 @@
                   <img src="/Sequence21.jpg" alt="NoMoreMeetings Homepage" class="w-36" />
                   <h3 class="text-2xl">Sequence 21</h3>
                   <div class="flex flex-row justify-between items-center space-x-4">
-                     <a href="https://sequence21.com" target="_blank" class="border-yellow-300 border-2 px-6 py-2 rounded-md hover:bg-yellow-300 hover:text-black">Website</a>
                      <NuxtLink to="/blog/sequence21" class="border-gray-500 border-2 px-6 py-2 rounded-md hover:bg-blue-800 hover:text-white">Blog</NuxtLink>
                   </div>
                </div>
