@@ -16,12 +16,12 @@
                 <div class="max-w-auto flex flex-col items-center justify-center p-4">
                     <h2 class="pb-2 text-2xl sm:text-4xl">Welcome</h2>
                     <div class="p font-eb text-lg">
-                        My name is Evan Campbell-Weiner and I am a Software Developer based out of Canada. Most recently I 
-                        worked for Amazon as a Software Development Engineer. Before that I worked for
+                        My name is Evan Campbell-Weiner and I am a Software Developer based out of Canada. Currently I am working for <a href="https://pixieset.com/" target="_blank" class="text-blue-300">Pixieset</a> where I work on the Store product. 
+                        Previously I worked for Amazon Alexa as a Software Development Engineer and with
                         <a href="https://iapotheca.com" target="_blank" class="text-blue-300">iApotheca Healthcare</a>
-                        as a Jr. Full-Stack Developer, and worked as a freelancer for
-                        <a href="https://overscore.media" target="_blank" class="text-purple-400">Overscore Media</a>. I have also copleted
-                        by BSc Honours in Computer Science from Trent University with a Specialization in Software Engineering and the Co-op Option.
+                        as a Jr. Full-Stack Developer. In addition I've worked as a freelancer with
+                        <a href="https://overscore.media" target="_blank" class="text-purple-400">Overscore Media</a> and completed
+                        by BSc Honours in Computer Science at Trent University with a Specialization in Software Engineering.
                         For more information I would invite you to checkout my experience and the various projects I have worked on.
                     </div>
                     <article id="projects" class="m-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-4">
