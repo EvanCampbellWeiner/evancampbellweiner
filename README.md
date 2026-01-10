@@ -8,6 +8,4 @@ Hello, My name is Evan Campbell-Weiner 😄
 ⌨️ Work Experience in Laravel (PHP), VueJS (Javascript), Java, AWS, and More.
 
 **Connect**  
-🌐 [Website](http://evancampbellweiner.com)  
 📉 [LinkedIn](https://www.linkedin.com/in/evancampbellweiner/)  
-🎮 [NoMoreMeetings via Netlify](https://gallant-poitras-d4d4d2.netlify.app/)
