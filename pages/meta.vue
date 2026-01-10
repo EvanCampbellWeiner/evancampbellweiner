@@ -27,10 +27,7 @@
 </template>
 
 <script>
-import ExperienceComponent from '../components/ExperienceComponent.vue'
   export default {
-    components: { ExperienceComponent },
-
     data:  function() {
       return {
           number: 1,
@@ -41,12 +38,21 @@ import ExperienceComponent from '../components/ExperienceComponent.vue'
       }
    },
     mounted: async function() {
-        this.image = await this.$axios.$get("https://zoo-animal-api.herokuapp.com/animals/rand").then(function(res) {
-            let image = res.image_link;
-            return image;
-        });
+        this.image = await this.fetchAnimalImage();
     },
    methods: {
+       async fetchAnimalImage() {
+           try {
+               const response = await fetch("https://zoo-animal-api.herokuapp.com/animals/rand");
+               if (!response.ok) {
+                   return "";
+               }
+               const data = await response.json();
+               return data.image_link || "";
+           } catch (error) {
+               return "";
+           }
+       },
        randomDouble() {
            let factor = Math.floor(Math.random()*2);
            this.number = this.number * ((factor == 0) ? 2 : 0);
@@ -61,10 +67,7 @@ import ExperienceComponent from '../components/ExperienceComponent.vue'
            }
        },
        async newImage() {
-            this.image = await this.$axios.$get("https://zoo-animal-api.herokuapp.com/animals/rand").then(function(res) {
-            let image = res.image_link;
-            return image;
-        });
+            this.image = await this.fetchAnimalImage();
        }
    }
 }
